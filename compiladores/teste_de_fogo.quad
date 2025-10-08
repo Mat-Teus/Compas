@@ -1,0 +1,42 @@
+inicio do quadrinho
+
+Historia[
+    personagem protagonista x = 5 pow
+    personagem antiheroi y = 1.0 pow
+    personagem heroi a = 2.0 pow
+    personagem vilao c = 'a' pow
+
+    se_personagem(x < 10)[
+        x = x + 5 pow
+    ]senao[
+        x = x - 5 pow
+    ]
+
+    sarjeta(x == 5)[
+        personagem protagonista i = 0 pow
+        i = i + 1 pow
+        se_personagem(i >= 1)[
+            y = 2.0 pow
+        ]senao[
+            y = 0.0 pow
+        ]
+    ]
+
+    sangria(for_inutil) pow
+
+    marca_pagina(x)[
+	pagina 1:
+		balao "oi" pow
+        pagina 2:
+		balao "uopa" pow
+    ]
+
+]Fim da Historia
+
+Painel for_inutil[
+    splash_page por 3 paginas[
+        balao "ISSO É APENAS SHOW OFF" pow
+    ]
+]Fim do Painel
+
+fim do quadrinho
