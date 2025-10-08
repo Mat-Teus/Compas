@@ -1,0 +1,13 @@
+inicio do quadrinho
+
+Historia[
+	balao "Vamos fazer a tabuada do 5" pow
+	personagem protagonista x pow
+	x = 10 pow
+	personagem protagonista i = 5 pow 
+	splash_page por x paginas[
+		balao "i * x" pow
+	]
+]Fim da Historia
+
+fim do quadrinho
